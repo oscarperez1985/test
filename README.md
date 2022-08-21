@@ -10,5 +10,5 @@ Below is an image:
 
 ![image2{caption=Example caption.}](./Graph_TotalDailyVolume.png)
 
-![image3](Graph_TotalDailyVolume.png "Image title")
+![image3](Graph_TotalDailyVolume.png)
 *image_caption*
