@@ -7,3 +7,5 @@ Below is an image:
 | ![image1](Graph_TotalDailyVolume.png) | 
 |:--:| 
 | *Image Foot Note* |
+
+![image1{caption=Example caption.}](./Graph_TotalDailyVolume.png)
