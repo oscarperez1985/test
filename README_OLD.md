@@ -24,19 +24,16 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 <p align = "center"> <img src = "./Resources/Code_Section_2.png"  width=80% height=80%></p>
 <p align = "center"> Image 02. VBA Challenge Excel Macro: Section 2</p>
 
-
 3.  This last section is intended to output and to format the display of the results in a more user-friendly manner. The performance of the code is measured at this point and a pop-up message with the execution time is set to be displayed to the user.
 
 <p align = "center"> <img src = "./Resources/Code_Section_3.png"  width=80% height=80%></p>
 <p align = "center"> Image 03. VBA Challenge Excel Macro: Section 3</p>
-
 
 ### Stock Performance
 The stock performance for a specific year can easily obtained by clicking on the *VBA Challenge* execution button provided. This will trigger a pop-up window asking the user to specify what year is to be analyzed (see Image 04).
 
 <p align = "center"> <img src = "./Resources/Button.png"  width=50% height=50%></p>
 <p align = "center"> Image 04 - Execution button and user-input pop-up window</p>
-
 
 The summary tables produced, provide an outlook of the stocks performance at a glance.
 
@@ -45,19 +42,24 @@ By comparing both years, we can observe that during 2017, all the companies exce
 <p align = "center"> <img src = "./Resources/Summary_Tables.png"  width=70% height=70%></p>
 <p align = "center"> Image 05. 2017 and 2018 Stocks Performance Tables</p>
 
+<!-- Another way of inserting an image -->
+<!-- <img src="./Resources/Summary_Tables.png"  width=70% height=70%>
+*Image 05. 2017 and 2018 Stocks Performance Tables* -->
 
-To complement the analysis, two bar charts showing the total daily volume expressed in millions and the yearly return expresed in percentages are displayed in Images 06 and 07. From these plots, it becomes evident that *ENPH* is the company with the highest total daily volume while having a positive yearly return in both years. In few words, if we would advise *Steve* what would be the best company to invest at the beginning of 2019, it would be *ENPH*.   
+<!-- Markdown way of inserting an image -->
+<!-- ![Image05_SummaryTables](./Resources/Summary_Tables.png)
+*Image 05. 2017 and 2018 Stocks Performance Tables* -->
+
+To complement the analysis, two bar charts showing the total daily volume expressed in millions and the yearly return expresed in percentages are displayed in Images 06 and 07. From these plots, it becomes more evident that *ENPH* is the company with the highest total daily volume while having a positive yearly return in both years. In few words, if we would advise *Steve* what would be the best company to invest in at the beginning of 2019, it would be *ENPH*.
 
 <p align = "center"> <img src = "./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%></p>
 <p align = "center"> Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes</p>
 
-
 <p align = "center"> <img src = "./Resources/Graph_YearlyReturn.png"  width=100% height=100%></p>
 <p align = "center"> Image 07. 2017 and 2018 Bar Chart: Yearly Return</p>
 
-
 ### Execution Times
-A comparison of the execution times of the Macro before and after refactoring the code is shown for both years in the Table 01. After refactoring the code, the execution times were reduced almost 90%. 
+A comparison of the execution times of the *Excel Macro* before and after refactoring the code is shown for both years in the Table 01. After refactoring the code, the execution times were reduced a XX%. 
 
 |                | **2017** | **2018** |
 |----------------|----------|----------|
