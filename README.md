@@ -12,3 +12,11 @@ Below is an image:
 
 ![image3](Graph_TotalDailyVolume.png)
 *image_caption*
+
+![image4](Graph_TotalDailyVolume.png#center)
+*image_caption*
+
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
