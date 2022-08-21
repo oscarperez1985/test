@@ -55,8 +55,8 @@ A comparison of the execution times of the Macro before and after refactoring th
 
 |                | **2017** | **2018** |
 |----------------|----------|----------|
-| **Original**   | Image 1  | Image 2  |
-| **Refactored** | Image 3  | Image 4  |
+| **Original**   | ![RunTime_Orig_2017](./Resources/RunTime_Original_2017.png)  | ![RunTime_Orig_2018](./Resources/RunTime_Original_2018.png)  |
+| **Refactored** | ![RunTime_Refa_2017](./Resources/RunTime_Refactored_2017.png)  | ![RunTime_Refa_2018](./Resources/RunTime_Refactored_2018.png)  |
 
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
