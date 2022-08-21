@@ -62,10 +62,8 @@ Image 05. 2017 and 2018 Stocks Performance Tables</p>
 
 To complement the analysis, two bar charts showing the total daily volume expressed in millions and the yearly return expresed in percentages are displayed in Images 06 and 07. From these plots, it becomes more evident that *ENPH* is the company with the highest total daily volume while having a positive yearly return in both years. In few words, if we would advise *Steve* what would be the best company to invest in at the beginning of 2019, it would be *ENPH*.
 
-<p align = "center">
-<img src = "./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%></p>
-<p align = "center">
-Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes</p>
+<p align = "center"> <img src = "./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%></p>
+<p align = "center"> Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes</p>
 
 <p align = "center">
 <img src = "./Resources/Graph_YearlyReturn.png"  width=100% height=100%></p>
@@ -79,7 +77,7 @@ A comparison of the execution times of the *Excel Macro* before and after refact
 |----------------|----------|----------|
 | **Original**   | ![RunTime_Orig_2017](./Resources/RunTime_Original_2017.png)  | ![RunTime_Orig_2018](./Resources/RunTime_Original_2018.png)  |
 | **Refactored** | ![RunTime_Refa_2017](./Resources/RunTime_Refactored_2017.png)  | ![RunTime_Refa_2018](./Resources/RunTime_Refactored_2018.png)  |
-<center>Table 01. Execution Times</center>
+<p align = "center"> Table 01. Execution Times</p>
 
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
