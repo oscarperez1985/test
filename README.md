@@ -53,14 +53,10 @@ To complement the analysis, two bar charts showing the total daily volume expres
 ### Execution Times
 A comparison of the execution times of the Macro before and after refactoring the code is shown for both years in the Table 01. After refactoring the code, the execution times were reduced a XX%. 
 
-\begin{table}[]
-\begin{tabular}{|l|l|l|}
-\hline
-                    & \textbf{2017} & \textbf{2018} \\ \hline
-\textbf{Original}   & Image1        & Image2        \\ \hline
-\textbf{Refactored} & Image3        & Image4        \\ \hline
-\end{tabular}
-\end{table}
+|                | **2017** | **2018** |
+|----------------|----------|----------|
+| **Original**   | Image 1  | Image 2  |
+| **Refactored** | Image 3  | Image 4  |
 
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
