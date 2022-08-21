@@ -17,21 +17,21 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 1. Here the subroutine name is defined, some variables which will be used to measure the execution time of the code are initialized, the user is requested to input the year to be analyzed, the worksheet where the results will be dumped is activated and formatted and an array containing the names of the stock companies is defined. 
 
 <p align = "center">
-<img src = "./Resources/Code_Section_1.pngg"  width=80% height=80%></p>
+<img src = "./Resources/Code_Section_1.png"  width=80% height=80%></p>
 <p align = "center">
 Image 01. VBA Challenge Excel Macro: Section 1</p>
 
 2. This section is the core of the analysis. First, based on the user input, a specific worksheet containing the data is activated, then some variables used during the execution of the **for loop** as well as some arrays that will hold the results are declared. Inside the for loop the code iterates through each row of data and a series of **if conditionals** are defined, intended to stablish rules for the computation of the Total Daily Volume and the Yearly Return for each of the stock companies listed in the array declared in the first section.
 
 <p align = "center">
-<img src = "./Resources/Code_Section_2.pngg"  width=80% height=80%></p>
+<img src = "./Resources/Code_Section_2.png"  width=80% height=80%></p>
 <p align = "center">
 Image 02. VBA Challenge Excel Macro: Section 2</p>
 
 3.  This last section is intended to output and to format the display of the results in a more user-friendly manner. The performance of the code is measured at this point and a pop-up message with the execution time is set to be displayed to the user.
 
 <p align = "center">
-<img src = "./Resources/Code_Section_3.pngg"  width=80% height=80%></p>
+<img src = "./Resources/Code_Section_3.png"  width=80% height=80%></p>
 <p align = "center">
 Image 03. VBA Challenge Excel Macro: Section 3</p>
 
