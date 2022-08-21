@@ -8,4 +8,8 @@ Below is an image:
 |:--:| 
 | *Image Foot Note* |
 
-![image1{caption=Example caption.}](./Graph_TotalDailyVolume.png)
+![image2{caption=Example caption.}](./Graph_TotalDailyVolume.png)
+
+{: .cssclass1 .cssclass2 }
+![image3](Graph_TotalDailyVolume.png "Image title")
+*image_caption*
