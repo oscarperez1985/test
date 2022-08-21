@@ -38,11 +38,9 @@ The stock performance for a specific year can easily obtained by clicking on the
 </figure> -->
 
 <p align = "center">
-<img src = "./Resources/Button.png"  width=50% height=50%>
-</p>
+<img src = "./Resources/Button.png"  width=50% height=50%></p>
 <p align = "center">
-Image 04 - Execution button and user-input pop-up window
-</p>
+<span class="emphasized">word</span> is italicized for decoration.</p>
 
 The summary tables produced, provide an outlook of the stocks performance at a glance.
 
