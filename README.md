@@ -30,7 +30,6 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 <p align = "center"> <img src = "./Resources/Code_Section_3.png"  width=80% height=80%></p>
 <p align = "center"> Image 03. VBA Challenge Excel Macro: Section 3</p>
 
-
 ### Stock Performance
 The stock performance for a specific year can easily obtained by clicking on the *VBA Challenge* execution button provided. This will trigger a pop-up window asking the user to specify what year is to be analyzed (see Image 04).
 
@@ -45,16 +44,13 @@ By comparing both years, we can observe that during 2017, all the companies exce
 <p align = "center"> <img src = "./Resources/Summary_Tables.png"  width=70% height=70%></p>
 <p align = "center"> Image 05. 2017 and 2018 Stocks Performance Tables</p>
 
-
 To complement the analysis, two bar charts showing the total daily volume expressed in millions and the yearly return expresed in percentages are displayed in Images 06 and 07. From these plots, it becomes evident that *ENPH* is the company with the highest total daily volume while having a positive yearly return in both years. In few words, if we would advise *Steve* what would be the best company to invest at the beginning of 2019, it would be *ENPH*.   
 
 <p align = "center"> <img src = "./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%></p>
 <p align = "center"> Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes</p>
 
-
 <p align = "center"> <img src = "./Resources/Graph_YearlyReturn.png"  width=100% height=100%></p>
 <p align = "center"> Image 07. 2017 and 2018 Bar Chart: Yearly Return</p>
-
 
 ### Execution Times
 A comparison of the execution times of the Macro before and after refactoring the code is shown for both years in the Table 01. After refactoring the code, the execution times were reduced almost 90%. 
@@ -66,5 +62,7 @@ A comparison of the execution times of the Macro before and after refactoring th
 <p align = "center"> Table 01. Execution Times</p>
 
 ## Summary
-1. What are the advantages or disadvantages of refactoring code?
-2. How do these pros and cons apply to refactoring the original VBA script?
+1. *What are the advantages or disadvantages of refactoring code?*
+- As demonstrated in this exercise, refactoring a code can reduce the execution time significantly. However it might be cumbersome for the programmer to refactor a code that is not clear or if it is not well documented or structured. Another potential issue is the lack of local control. When refactoring a code, multiple steps might be synthesize into less or even a single step. While this would make the code more efficient, in certain cases, it might complicate the process of modifying the code or debugging it. For example, a minor but undesired modification might lead to a global error.     
+2. *How do these pros and cons apply to refactoring the original VBA script?*
+- Refactoring the original VBA script reduced its execution times by almost a 90%. Instead of iterating through the whole data 12 times, this is, the same number of stock companies, only one iteration was conducted in the refactored code. Since this code was clear, commented and well-structured, refactoring the code was a fairly simple process.
