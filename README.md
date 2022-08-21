@@ -35,6 +35,8 @@ The stock performance for a specific year can easily obtained by clicking on the
 ![Image04_Button](./Resources/Button.png)
 *Image 04. Execution button and user-input pop-up window*
 
+<img src="./Resources/Button.png"  width=50% height=50%>
+
 The summary tables produced, provide an outlook of the stocks performance at a glance.
 
 By comparing both years, we can observe that during 2017, all the companies except *TERP* had a positive yearly return. While in 2018 the results were not as good as the previous year, and all of them except *ENPH* and *RUN* had a negative yearly return.
