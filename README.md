@@ -79,6 +79,7 @@ A comparison of the execution times of the *Excel Macro* before and after refact
 |----------------|----------|----------|
 | **Original**   | ![RunTime_Orig_2017](./Resources/RunTime_Original_2017.png)  | ![RunTime_Orig_2018](./Resources/RunTime_Original_2018.png)  |
 | **Refactored** | ![RunTime_Refa_2017](./Resources/RunTime_Refactored_2017.png)  | ![RunTime_Refa_2018](./Resources/RunTime_Refactored_2018.png)  |
+<center>Table 01. Execution Times</center>
 
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
