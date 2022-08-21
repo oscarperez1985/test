@@ -16,26 +16,27 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 
 1. Here the subroutine name is defined, some variables which will be used to measure the execution time of the code are initialized, the user is requested to input the year to be analyzed, the worksheet where the results will be dumped is activated and formatted and an array containing the names of the stock companies is defined. 
 
-<img src="./Resources/Code_Section_1.png"  width=80% height=80%>
-*Image 01. VBA Challenge Excel Macro: Section 1*
+<p align = "center">
+<img src = "./Resources/Code_Section_1.pngg"  width=80% height=80%></p>
+<p align = "center">
+Image 01. VBA Challenge Excel Macro: Section 1</p>
 
 2. This section is the core of the analysis. First, based on the user input, a specific worksheet containing the data is activated, then some variables used during the execution of the **for loop** as well as some arrays that will hold the results are declared. Inside the for loop the code iterates through each row of data and a series of **if conditionals** are defined, intended to stablish rules for the computation of the Total Daily Volume and the Yearly Return for each of the stock companies listed in the array declared in the first section.
 
-<img src="./Resources/Code_Section_2.png"  width=80% height=80%>
-*Image 02. VBA Challenge Excel Macro: Section 2*
+<p align = "center">
+<img src = "./Resources/Code_Section_2.pngg"  width=80% height=80%></p>
+<p align = "center">
+Image 02. VBA Challenge Excel Macro: Section 2</p>
 
 3.  This last section is intended to output and to format the display of the results in a more user-friendly manner. The performance of the code is measured at this point and a pop-up message with the execution time is set to be displayed to the user.
 
-<img src="./Resources/Code_Section_3.png"  width=80% height=80%>
-*Image 03. VBA Challenge Excel Macro: Section 3*
+<p align = "center">
+<img src = "./Resources/Code_Section_3.pngg"  width=80% height=80%></p>
+<p align = "center">
+Image 03. VBA Challenge Excel Macro: Section 3</p>
 
 ### Stock Performance
 The stock performance for a specific year can easily obtained by clicking on the *VBA Challenge* execution button provided. This will trigger a pop-up window asking the user to specify what year is to be analyzed (see Image 04).
-
-<!-- <figure>
-<img src="./Resources/Button.png"  width=50% height=50%>
-<figcaption align = "left"><b>Image 04. Execution button and user-input pop-up window</b></figcaption>
-</figure> -->
 
 <p align = "center">
 <img src = "./Resources/Button.png"  width=50% height=50%></p>
@@ -46,16 +47,30 @@ The summary tables produced, provide an outlook of the stocks performance at a g
 
 By comparing both years, we can observe that during 2017, all the companies except *TERP* had a positive yearly return. While in 2018 the results were not as good as the previous year, and all of them except *ENPH* and *RUN* had a negative yearly return.
 
-<img src="./Resources/Summary_Tables.png"  width=70% height=70%>
-*Image 05. 2017 and 2018 Stocks Performance Tables*
+<p align = "center">
+<img src = "./Resources/Summary_Tables.png"  width=70% height=70%></p>
+<p align = "center">
+Image 05. 2017 and 2018 Stocks Performance Tables</p>
+
+<!-- Another way of inserting an image -->
+<!-- <img src="./Resources/Summary_Tables.png"  width=70% height=70%>
+*Image 05. 2017 and 2018 Stocks Performance Tables* -->
+
+<!-- Markdown way of inserting an image -->
+<!-- ![Image05_SummaryTables](./Resources/Summary_Tables.png)
+*Image 05. 2017 and 2018 Stocks Performance Tables* -->
 
 To complement the analysis, two bar charts showing the total daily volume expressed in millions and the yearly return expresed in percentages are displayed in Images 06 and 07. From these plots, it becomes more evident that *ENPH* is the company with the highest total daily volume while having a positive yearly return in both years. In few words, if we would advise *Steve* what would be the best company to invest in at the beginning of 2019, it would be *ENPH*.
 
-<img src="./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%>
-*Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes*
+<p align = "center">
+<img src = "./Resources/Graph_TotalDailyVolume.png"  width=100% height=100%></p>
+<p align = "center">
+Image 06. 2017 and 2018 Bar Chart: Total Daily Volumes</p>
 
-<img src="./Resources/Graph_YearlyReturn.png"  width=100% height=100%>
-*Image 07. 2017 and 2018 Bar Chart: Yearly Return*
+<p align = "center">
+<img src = "./Resources/Graph_YearlyReturn.png"  width=100% height=100%></p>
+<p align = "center">
+Image 07. 2017 and 2018 Bar Chart: Yearly Return</p>
 
 ### Execution Times
 A comparison of the execution times of the *Excel Macro* before and after refactoring the code is shown for both years in the Table 01. After refactoring the code, the execution times were reduced a XX%. 
