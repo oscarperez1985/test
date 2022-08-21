@@ -35,7 +35,10 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 3.  This last section is intended to output and to format the results for a more user friendly display. The performance of the code is measured at this point and a pop-up message with the execution time is set to be displayed to the user.
 
 ![Code_Section_3](./Resources/Code_Section_3.png)
-*Image3. VBA Challenge Excel Macro: Section 3*
+<!-- *Image3. VBA Challenge Excel Macro: Section 3* -->
+<span style="color:green;font-weight:700;font-size:10px">
+    markdown color font styles
+</span>
 
 ### Stock Performance
 Compare the stock performance between 2017 and 2018
@@ -46,9 +49,3 @@ Compare execution times between original script and refactored script
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
 2. How do these pros and cons apply to refactoring the original VBA script?
-
-#### hi
-##### hi
-###### hi
-####### hi
-hi
