@@ -30,12 +30,12 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 2. This section is the core of the analysis. First, based on the user input, a specific worksheet containing the data is activated, then some variables used during the execution of the **for loop** as well as some arrays that will hold the results are declared. Inside the for loop the code iterates through each row of data and a series of **if conditionals** are defined, intended to stablish rules for the computation of the Total Daily Volume and the Yearly Return for each of the stock companies listed in the array declared in the first section.
 
 ![Code_Section_2](./Resources/Code_Section_2.png)
-*Image1. VBA Challenge Excel Macro: Section 2*
+*Image2. VBA Challenge Excel Macro: Section 2*
 
 3.  This last section is intended to output and to format the results for a more user friendly display. The performance of the code is measured at this point and a pop-up message with the execution time is set to be displayed to the user.
 
 ![Code_Section_3](./Resources/Code_Section_3.png)
-*Image1. VBA Challenge Excel Macro: Section 3*
+*Image3. VBA Challenge Excel Macro: Section 3*
 
 ### Stock Performance
 Compare the stock performance between 2017 and 2018
@@ -46,3 +46,16 @@ Compare execution times between original script and refactored script
 ## Summary
 1. What are the advantages or disadvantages of refactoring code?
 2. How do these pros and cons apply to refactoring the original VBA script?
+
+
+<font size="1"> This is my text number1</font> 
+
+<font size="2"> This is my text number 2 </font>
+ 
+<font size="3"> This is my text number 3</font> 
+ 
+<font size="4"> This is my text number 4</font> 
+ 
+<font size="5"> This is my text number 5</font> 
+ 
+<font size="6"> This is my text number 6</font>
