@@ -32,10 +32,17 @@ Before jumping into the results, below is a brief review of the *VBA Challenge M
 ### Stock Performance
 The stock performance for a specific year can easily obtained by clicking on the *VBA Challenge* execution button provided. This will trigger a pop-up window asking the user to specify what year is to be analyzed (see Image 04).
 
-<figure>
+<!-- <figure>
 <img src="./Resources/Button.png"  width=50% height=50%>
 <figcaption align = "left"><b>Image 04. Execution button and user-input pop-up window</b></figcaption>
-</figure>
+</figure> -->
+
+<p align = "center">
+<img src = "./Resources/Button.png"  width=50% height=50%>
+</p>
+<p align = "center">
+Image 04 - Execution button and user-input pop-up window
+</p>
 
 The summary tables produced, provide an outlook of the stocks performance at a glance.
 
